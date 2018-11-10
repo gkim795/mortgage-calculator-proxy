@@ -15,8 +15,5 @@
     "http-proxy": "^1.17.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
-  },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
   }
 }
