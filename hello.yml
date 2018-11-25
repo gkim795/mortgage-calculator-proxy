@@ -1,0 +1,12 @@
+config:
+  target: 'http://localhost:8080'
+  processor: './stressTest.js'
+  phases:
+    - duration: 60
+      arrivalRate: 1000
+scenarios:
+  - flow:
+    - function: 'randomID'
+    - get:
+        url: "/homes/{{ id }}"
+        
